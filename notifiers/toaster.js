@@ -4,7 +4,7 @@
 var path = require('path');
 var notifier = path.resolve(
   `${__static}/../node_modules/node-notifier-in-electron-vue`,
-  '../vendor/snoreToast/SnoreToast.exe'
+  'vendor/snoreToast/SnoreToast.exe'
 );
 var utils = require('../lib/utils');
 var Balloon = require('./balloon');

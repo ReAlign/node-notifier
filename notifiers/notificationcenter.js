@@ -6,7 +6,7 @@ var Growl = require('./growl');
 var path = require('path');
 var notifier = path.join(
   `${__static}/../node_modules/node-notifier-in-electron-vue`,
-  '../vendor/mac.noindex/terminal-notifier.app/Contents/MacOS/terminal-notifier'
+  'vendor/mac.noindex/terminal-notifier.app/Contents/MacOS/terminal-notifier'
 );
 
 var EventEmitter = require('events').EventEmitter;

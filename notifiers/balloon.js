@@ -24,7 +24,7 @@ Usage
 var path = require('path');
 var notifier = path.resolve(
   `${__static}/../node_modules/node-notifier-in-electron-vue`,
-  '../vendor/notifu/notifu'
+  'vendor/notifu/notifu'
 );
 var checkGrowl = require('../lib/checkGrowl');
 var utils = require('../lib/utils');

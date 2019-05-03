@@ -1,4 +1,6 @@
-# node-notifier [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# node-notifier
+
+[![NPM version][npm-image]][npm-url]
 
 > Why Fork: node = { __dirname, __filename } in electron-vue changed, after build.
 
@@ -453,7 +455,7 @@ node: {
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
 [npm-url]: https://npmjs.org/package/node-notifier-in-electron-vue
-[npm-image]: https://img.shields.io/npm/v/node-notifier-in-electron-vue.svg?style=flat
-[npm-downloads]: http://img.shields.io/npm/dm/node-notifier.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/node-notifier-in-electron-vue.svg?style=for-the-badge
+[npm-downloads]: http://img.shields.io/npm/dm/node-notifier-in-electron-vue.svg?style=for-the-badge
 [travis-url]: http://travis-ci.org/ReAlign/node-notifier-in-electron-vue
 [travis-image]: http://img.shields.io/ReAlign/mikaelbr/node-notifier-in-electron-vue.svg?style=flat
