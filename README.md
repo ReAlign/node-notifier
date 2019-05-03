@@ -1,6 +1,6 @@
 # node-notifier [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> Why Fork: node = { __dirname, __filename } in electron-vue changed.
+> Why Fork: node = { __dirname, __filename } in electron-vue changed, after build.
 
 Send cross platform native notifications using Node.js. Notification Center for macOS,
 `notify-osd`/`libnotify-bin` for Linux, Toasters for Windows 8/10, or taskbar balloons for
