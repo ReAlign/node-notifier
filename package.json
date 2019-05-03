@@ -33,7 +33,7 @@
     "toaster",
     "notification"
   ],
-  "author": "Mikael Brevik",
+  "author": "ReAlign",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.12.1",
