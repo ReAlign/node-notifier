@@ -1,5 +1,7 @@
 # node-notifier [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
+> Why Fork: node = { __dirname, __filename } in electron-vue changed.
+
 Send cross platform native notifications using Node.js. Notification Center for macOS,
 `notify-osd`/`libnotify-bin` for Linux, Toasters for Windows 8/10, or taskbar balloons for
 earlier Windows versions. Growl is used if none of these requirements are met.
@@ -450,8 +452,8 @@ node: {
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-[npm-url]: https://npmjs.org/package/node-notifier
-[npm-image]: http://img.shields.io/npm/v/node-notifier.svg?style=flat
+[npm-url]: https://npmjs.org/package/node-notifier-in-electron-vue
+[npm-image]: https://img.shields.io/npm/v/node-notifier-in-electron-vue.svg?style=flat
 [npm-downloads]: http://img.shields.io/npm/dm/node-notifier.svg?style=flat
-[travis-url]: http://travis-ci.org/mikaelbr/node-notifier
-[travis-image]: http://img.shields.io/travis/mikaelbr/node-notifier.svg?style=flat
+[travis-url]: http://travis-ci.org/ReAlign/node-notifier-in-electron-vue
+[travis-image]: http://img.shields.io/ReAlign/mikaelbr/node-notifier-in-electron-vue.svg?style=flat

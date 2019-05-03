@@ -1,6 +1,6 @@
 {
-  "name": "node-notifier",
-  "version": "5.4.0",
+  "name": "node-notifier-in-electron-vue",
+  "version": "5.4.1",
   "description": "A Node.js module for sending notifications on native Mac, Windows (post and pre 8) and Linux (or Growl as fallback)",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mikaelbr/node-notifier.git"
+    "url": "git+https://github.com/ReAlign/node-notifier-in-electron-vue.git"
   },
   "keywords": [
     "notification center",
@@ -62,9 +62,9 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/mikaelbr/node-notifier/issues"
+    "url": "https://github.com/ReAlign/node-notifier-in-electron-vue.git/issues"
   },
-  "homepage": "https://github.com/mikaelbr/node-notifier#readme",
+  "homepage": "https://github.com/ReAlign/node-notifier-in-electron-vue.git#readme",
   "directories": {
     "example": "example",
     "test": "test"

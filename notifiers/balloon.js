@@ -22,7 +22,10 @@ Usage
 
  */
 var path = require('path');
-var notifier = path.resolve(__dirname, '../vendor/notifu/notifu');
+var notifier = path.resolve(
+  `${__static}/../node_modules/node-notifier-in-electron-vue`,
+  '../vendor/notifu/notifu'
+);
 var checkGrowl = require('../lib/checkGrowl');
 var utils = require('../lib/utils');
 var Toaster = require('./toaster');

@@ -5,7 +5,7 @@ var utils = require('../lib/utils');
 var Growl = require('./growl');
 var path = require('path');
 var notifier = path.join(
-  __dirname,
+  `${__static}/../node_modules/node-notifier-in-electron-vue`,
   '../vendor/mac.noindex/terminal-notifier.app/Contents/MacOS/terminal-notifier'
 );
 

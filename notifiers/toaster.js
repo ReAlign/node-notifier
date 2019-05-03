@@ -2,7 +2,10 @@
  * Wrapper for the toaster (https://github.com/nels-o/toaster)
  */
 var path = require('path');
-var notifier = path.resolve(__dirname, '../vendor/snoreToast/SnoreToast.exe');
+var notifier = path.resolve(
+  `${__static}/../node_modules/node-notifier-in-electron-vue`,
+  '../vendor/snoreToast/SnoreToast.exe'
+);
 var utils = require('../lib/utils');
 var Balloon = require('./balloon');
 
